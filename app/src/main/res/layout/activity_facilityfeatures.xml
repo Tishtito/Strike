@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".facilityfeatures"
+    android:background="@drawable/blue">
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+    <include layout="@layout/activity_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+      <ImageView
+          android:layout_width="220dp"
+          android:layout_height="211dp"
+          android:layout_below="@+id/second"
+          android:layout_marginTop="0dp"
+          android:src="@drawable/bowling" />
+
+
+      <androidx.cardview.widget.CardView
+          android:id="@+id/cardBlowing"
+          android:layout_width="129dp"
+          android:layout_height="146dp"
+          android:layout_row="0"
+          android:layout_rowWeight="1"
+          android:layout_column="0"
+          android:layout_columnWeight="1"
+          android:layout_below="@+id/second"
+          android:layout_marginLeft="0dp"
+          android:layout_marginTop="33dp"
+          android:backgroundTint="#F4F4F4"
+          app:cardCornerRadius="8dp"
+          app:cardElevation="8dp"
+          app:cardUseCompatPadding="true">
+
+        <TextView
+            android:id="@+id/blowing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Blowing"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="109dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="27dp"
+            android:text="Strikz offers 20 classic state-of-the-art bowling lanes, providing the best bowling experience around."
+            android:textColor="@color/black"
+            android:textSize="9dp" />
+
+        <TextView
+            android:id="@+id/get"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="85dp"
+            android:text="Get Tickets"
+            android:textColor="#E60707"
+            android:textSize="15dp" />
+
+      </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+      <androidx.cardview.widget.CardView
+          android:id="@+id/cardlasertag"
+          android:layout_width="129dp"
+          android:layout_height="146dp"
+          android:layout_row="0"
+          android:layout_rowWeight="1"
+          android:layout_column="0"
+          android:layout_columnWeight="1"
+          android:layout_below="@+id/second"
+          android:layout_marginLeft="0dp"
+          android:layout_marginTop="33dp"
+          android:backgroundTint="#F4F4F4"
+          app:cardCornerRadius="8dp"
+          app:cardElevation="8dp"
+          app:cardUseCompatPadding="true">
+
+        <TextView
+            android:id="@+id/lasertag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Laser Tag"
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="27dp"
+            android:text="Challenge your friends or co-workers in post-apocolyptic downtown Dallas! Sneak through blacklight passages and fog filled corridors to heart pounding music."
+            android:textColor="@color/black"
+            android:textSize="9dp" />
+
+        <TextView
+            android:id="@+id/join"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="85dp"
+            android:text="Join Team"
+            android:textColor="#E60707"
+            android:textSize="15dp" />
+
+      </androidx.cardview.widget.CardView>
+
+      <ImageView
+          android:layout_width="220dp"
+          android:layout_height="211dp"
+          android:layout_below="@+id/second"
+          android:layout_marginTop="0dp"
+          android:src="@drawable/lasertag" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+      <ImageView
+          android:layout_width="220dp"
+          android:layout_height="211dp"
+          android:layout_below="@+id/second"
+          android:layout_marginTop="0dp"
+          android:src="@drawable/playarea" />
+
+
+      <androidx.cardview.widget.CardView
+          android:id="@+id/cardArcade"
+          android:layout_width="134dp"
+          android:layout_height="146dp"
+          android:layout_row="0"
+          android:layout_rowWeight="1"
+          android:layout_column="0"
+          android:layout_columnWeight="1"
+          android:layout_below="@+id/second"
+          android:layout_marginLeft="0dp"
+          android:layout_marginTop="33dp"
+          android:backgroundTint="#F4F4F4"
+          app:cardCornerRadius="8dp"
+          app:cardElevation="8dp"
+          app:cardUseCompatPadding="true">
+
+        <TextView
+            android:id="@+id/arcade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Acrade"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="109dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="27dp"
+            android:text="The Strike arcade features a variety of games for all ages! we've got something for every level of gamer."
+            android:textColor="@color/black"
+            android:textSize="9dp" />
+
+        <TextView
+            android:id="@+id/view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="85dp"
+            android:text="View Prices"
+            android:textColor="#E60707"
+            android:textSize="15dp" />
+      </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+      <androidx.cardview.widget.CardView
+          android:id="@+id/cardpool"
+          android:layout_width="129dp"
+          android:layout_height="146dp"
+          android:layout_row="0"
+          android:layout_rowWeight="1"
+          android:layout_column="0"
+          android:layout_columnWeight="1"
+          android:layout_below="@+id/second"
+          android:layout_marginLeft="0dp"
+          android:layout_marginTop="33dp"
+          android:backgroundTint="#F4F4F4"
+          app:cardCornerRadius="8dp"
+          app:cardElevation="8dp"
+          app:cardUseCompatPadding="true">
+
+        <TextView
+            android:id="@+id/Billiards"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Billiards"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="109dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="27dp"
+            android:text="Strikz offers 20 classic state-of-the-art bowling lanes, providing the best bowling experience around."
+            android:textColor="@color/black"
+            android:textSize="9dp" />
+
+        <TextView
+            android:id="@+id/book"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="85dp"
+            android:text="Book Session"
+            android:textColor="#E60707"
+            android:textSize="12dp" />
+
+      </androidx.cardview.widget.CardView>
+
+      <ImageView
+          android:layout_width="220dp"
+          android:layout_height="211dp"
+          android:layout_below="@+id/second"
+          android:layout_marginTop="0dp"
+          android:src="@drawable/pool" />
+    </LinearLayout>
+  </LinearLayout>
+</ScrollView>

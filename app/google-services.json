@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "531055237190",
+    "project_id": "strike-b4849",
+    "storage_bucket": "strike-b4849.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531055237190:android:ae19e578ede0365590d247",
+        "android_client_info": {
+          "package_name": "com.example.strike"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531055237190-gcfdr4vi1b6vc48so0j9flnec1kjpklt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1tAL4HZZviX8OqGLbJt0md2TXPzhnzFo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "531055237190-gcfdr4vi1b6vc48so0j9flnec1kjpklt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
